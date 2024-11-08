@@ -1,1 +1,7 @@
-version: integration-china-20241016-6
+charts:
+  sip:
+    version: 0.5.10
+  storefront:
+    version: 0.4.2
+  solr:
+    version: 3.1.1
