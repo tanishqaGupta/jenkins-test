@@ -1,6 +1,6 @@
 charts:
   sip:
-    version: 0.5.10
+    version: 0.5.11
   storefront:
     version: 0.4.2
   solr:
