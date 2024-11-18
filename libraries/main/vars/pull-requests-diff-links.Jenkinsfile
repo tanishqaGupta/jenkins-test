@@ -1,10 +1,5 @@
 pipelineJob("testing/pr-diff-links-test") {
-    agent {
-        kubernetes {
-            defaultContainer com.costco.Agents.DEPLOYMENT_DEFAULT_AGENT_CONTAINER
-            yaml com.costco.Agents.DEPLOYMENT_DEFAULT_AGENT
-        }
-    }
+    agent any
     properties {
         configure stashBuildTriggerConfig(
                 "COSHYB",
